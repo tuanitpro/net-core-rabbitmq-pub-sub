@@ -12,9 +12,11 @@ namespace Receive
             Console.WriteLine("Hello Receiver!");
 
             var factory = new ConnectionFactory() { HostName = "localhost" };
+            factory.AutomaticRecoveryEnabled = true;
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
+
                 channel.QueueDeclare(queue: "hello",
                                      durable: false,
                                      exclusive: false,
