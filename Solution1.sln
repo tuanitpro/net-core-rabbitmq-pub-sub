@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "Send\Send.csproj", "{15D59B33-4980-4E66-8E9C-52452F305948}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "Send\Send.csproj", "{15D59B33-4980-4E66-8E9C-52452F305948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receive", "Receive\Receive.csproj", "{C8C7A60F-25DA-47CB-94D4-7BAD99261778}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receive", "Receive\Receive.csproj", "{C8C7A60F-25DA-47CB-94D4-7BAD99261778}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveService", "ReceiveService\ReceiveService.csproj", "{97258A78-8FC3-48EF-9037-C3BF5D80BF81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C8C7A60F-25DA-47CB-94D4-7BAD99261778}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8C7A60F-25DA-47CB-94D4-7BAD99261778}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8C7A60F-25DA-47CB-94D4-7BAD99261778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97258A78-8FC3-48EF-9037-C3BF5D80BF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97258A78-8FC3-48EF-9037-C3BF5D80BF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97258A78-8FC3-48EF-9037-C3BF5D80BF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97258A78-8FC3-48EF-9037-C3BF5D80BF81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
